@@ -7,3 +7,8 @@
 # pip install pandas
 # "as pd" makes "pd" a nickname for the package
 import pandas as pd
+
+df = pd.read_csv("./AllPokemon.csv")
+print(df)
+
+# to run in terminal type -- python <filename>.py -- make sure your in the correct directory using cd "<filepath>"
